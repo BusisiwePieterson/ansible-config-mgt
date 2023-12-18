@@ -10,7 +10,7 @@
         state: latest
    
 
-- name: update LB server
+- name: update Loadbalancer server
   hosts: lb
   become: true
   become_user: root

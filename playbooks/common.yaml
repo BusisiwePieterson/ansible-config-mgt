@@ -5,12 +5,12 @@
   become_user: root
   tasks:
     - name: ensure wireshark is at the latest version
-      yum:
+      yum3:
         name: wireshark
         state: latest
    
 
-- name: update LB server
+- name: update Loadbalancer server
   hosts: lb
   become: true
   become_user: root

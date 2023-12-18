@@ -8,7 +8,7 @@ Servers
 172.31.6.122 ansible_ssh_user='ec2-user'
 
 [db]
-172.31.0.164 ansible_ssh_user='ubuntu'
+172.31.14.131 ansible_ssh_user='ec2-user'
 
 [lb]
 172.31.4.250 ansible_ssh_user='ubuntu'

@@ -4,26 +4,26 @@
 
 ![image](images/ARCHITECTURE.png)
 
-In this project we will be automating routine tasks with Ansible Configuration Management. In the previous project https://github.com/BusisiwePieterson/NFS-Website-Solution there was alot of manual operations to set up virtual servers, install and configure required software and deploy the web application. 
+In this project, we will be automating routine tasks with Ansible Configuration Management. In the previous project https://github.com/BusisiwePieterson/NFS-Website-Solution there was a lot of manual operations to set up virtual servers, install and configure required software, and deploy the web application. 
 
-In this project we get to appreciate DevOps tools by making use of Ansible for automating the configuration for our servers. We will be making use of Ansible-Client as a Bastion Host and will be writting Ansible playbooks, which is an organized set of scripts written in YAML. The scripts define the tasks involved in managing a system configuration using the automation tool Ansible.
+In this project, we get to appreciate DevOps tools by making use of Ansible for automating the configuration of our servers. We will be making use of Ansible-Client as a Bastion Host and will be writing Ansible playbooks, which are an organized set of scripts written in YAML. The scripts define the tasks involved in managing a system configuration using the automation tool Ansible.
 
 But first...
 
 ### What is a Bastion Host?
 
-A bastion host is a server used to manage access to an internal or private network from an external network - sometimes called a jump box or jump server. Because bastion hosts often sit on the Internet, they typically run a minimum amount of services in order to reduce their attack surface. They are also commonly used to proxy and log communications, such as SSH sessions.
+A bastion host is a server used to manage access to an internal or private network from an external network - sometimes called a jump box or jump server. Because bastion hosts often sit on the Internet, they typically run a minimum amount of services to reduce their attack surface. They are also commonly used to proxy and log communications, such as SSH sessions.
 
 
 ## Install and configure ansible on EC2
 
-- Launch a new EC2 instance, this will be used run playbooks.
+- Launch a new EC2 instance, this will be used to run playbooks.
 
 - Install Ansible `sudo apt update` then `sudo apt install ansible`
 
 - Check the Ansible version `ansible --version`
 
-- Create a new Github repository.
+- Create a new GitHub repository.
 
 ![image](images/Screenshot_1.png)
 
@@ -32,7 +32,7 @@ A bastion host is a server used to manage access to an internal or private netwo
 
 ![image](images/Screenshot_2.png)
 
-In this step we create a new Freestyle project in Jenkins and configure build job to archive the repository content to `ls /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/
+In this step, we create a new Freestyle project in Jenkins and configure a build job to archive the repository content to `ls /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/
 ` every time it is changed.
 
 

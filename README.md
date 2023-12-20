@@ -39,7 +39,7 @@ In this step, we create a new Freestyle project in Jenkins and configure a build
 
 - We configure a new project `ansible-config` and configure a Post-build job to save all `(**)` files.
 
-- Configure a webhook in GitHub and set the webhook to trigger our `ansible-config` build.
+- Configure a Webhook in GitHub and set the Webhook to trigger our `ansible-config` build.
 
 
 ![image](images/Screenshot_4.png)

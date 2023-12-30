@@ -3,4 +3,4 @@
 - import_playbook: ../static-assignments/common-del.yaml
 
 - hosts: uat-webservers
-- import_playbook: ../static-assigments/uat-webservers.yaml
+- import_playbook: ../static-assignments/uat-webservers.yaml

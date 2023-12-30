@@ -31,3 +31,7 @@
     name: httpd
     state: started
 
+- name: recursively remove /var/www/html directory
+  become: true
+  path: /var/www/html
+  state: absent

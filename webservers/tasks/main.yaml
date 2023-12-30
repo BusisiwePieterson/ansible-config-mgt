@@ -33,6 +33,6 @@
 
 - name: recursively remove /var/www/html directory
   become: true
-  ansible.builtin.file:
+  file:
   path: /var/www/html
   state: absent

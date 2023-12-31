@@ -17,7 +17,7 @@
 - name: clone a repo
   become: true
   ansible.builtin.git:
-    repo: https://github.com/BusisiwePieterson/Ansible-refactoring-imports-roles.git
+    repo: https://github.com/BusisiwePieterson/ansible-config-mgt.git
     dest: /var/www/html
     force: yes
 

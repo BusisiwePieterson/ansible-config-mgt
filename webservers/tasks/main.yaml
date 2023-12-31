@@ -27,8 +27,16 @@
     name: httpd
     state: started
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 39e0cf880678025721f1f59358390e6039e1e169
 - name: Recursively remove /var/www/html directory
   become: true
   ansible.builtin.file:
     path: /var/www/html
+<<<<<<< HEAD
     state: absent
+=======
+    state: absent 
+>>>>>>> 39e0cf880678025721f1f59358390e6039e1e169

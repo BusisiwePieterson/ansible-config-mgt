@@ -4,8 +4,8 @@ Servers
 172.31.1.76 ansible_ssh_user='ec2-user'
 
 [webservers]
-172.31.9.205 ansible_ssh_user='ec2-user'
-172.31.6.122 ansible_ssh_user='ec2-user'
+172.31.15.68 ansible_ssh_user='ec2-user'
+172.31.4.9 ansible_ssh_user='ec2-user'
 
 [db]
 172.31.14.131 ansible_ssh_user='ec2-user'

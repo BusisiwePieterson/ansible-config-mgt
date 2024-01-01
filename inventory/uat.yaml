@@ -1,5 +1,10 @@
 webservers
 
 [uat-webservers]
+<<<<<<< HEAD
 172.31.9.205 ansible_ssh_user='ec2-user'
 172.31.6.122 ansible_ssh_user='ec2-user'
+=======
+172.31.15.68 ansible_ssh_user='ec2-user'
+172.31.4.9 ansible_ssh_user='ec2-user'
+>>>>>>> f07f537a781d27bbf4f9cebb673e0e9fbe2eb47e

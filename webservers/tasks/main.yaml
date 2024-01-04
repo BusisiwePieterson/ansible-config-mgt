@@ -23,7 +23,7 @@
 
 - name: copy html content to one level up
   become: true
-  command: cp -r /var/www/html/tooling/html/. /var/www/html/tooling/.
+  command: cp -r /var/www/html/html/.    /var/www/html/.
 
 - name: Start service httpd, if not started
   become: true

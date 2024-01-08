@@ -1,4 +1,4 @@
-# Ansible Configuration 
+# Ansible Configuration Management
 
 *project architecture*
 

@@ -20,6 +20,7 @@
     dest: /var/www/html
     force: yes
 
+
 - name: copy html content to one level up
   become: true
   command: cp -r /var/www/html/html/ /var/www/

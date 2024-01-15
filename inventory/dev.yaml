@@ -2,8 +2,13 @@
 #172.31.8.253 ansible_ssh_user='ec2-user'
 
 [webservers]
+<<<<<<< HEAD
+172.31.13.242 ansible_ssh_user='ec2-user'
+172.31.13.169 ansible_ssh_user='ec2-user'
+=======
 172.31.13.169 ansible_ssh_user='ec2-user'
 172.31.13.242 ansible_ssh_user='ec2-user'
+>>>>>>> main
 
 #[db]
 #172.31.15.63 ansible_ssh_user='ec2-user'

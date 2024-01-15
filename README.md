@@ -81,7 +81,7 @@ In this step, we create a new Freestyle project in Jenkins and configure a build
 
 ![image](images/Screenshot_16.png)
 
-- Add this to the config file, 
+- Add this to the config file
 
 ![image](images/Screenshot_32.png)
 

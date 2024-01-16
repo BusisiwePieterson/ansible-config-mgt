@@ -23,7 +23,7 @@ A bastion host is a server used to manage access to an internal or private netwo
 
 - Check the Ansible version `ansible --version`
 
-- Create a new GitHub repository.
+- Create a new GitHub repository
 
 ![image](images/Screenshot_1.png)
 

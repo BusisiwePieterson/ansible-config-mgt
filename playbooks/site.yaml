@@ -3,9 +3,6 @@
 #- import_playbook: ../static-assignments/common.yaml
 #- import_playbook: ../static-assignments/common-del.yaml
 
-#- hosts: uat-webservers  
-#- import_playbook: ../static-assignments/uat-webservers.yaml
-
 ---
 - hosts: all
 - name: Include dynamic variables 
@@ -15,9 +12,16 @@
   tags:
     - always
 
--  hosts: webservers
+- hosts: webservers  
 - name: Webserver assignment
-  import_playbook: ../static-assignments/webservers.yaml
+- import_playbook: ../static-assignments/webservers.yaml
+
+
+
+
+  
+ 
+
 
 
 

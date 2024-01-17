@@ -1,0 +1,7 @@
+
+```yaml
+- hosts: database
+  roles:
+    - role: mysql
+      become: yes
+```

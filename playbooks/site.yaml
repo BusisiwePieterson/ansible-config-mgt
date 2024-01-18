@@ -11,9 +11,9 @@
   tags:
     - always
 
-- hosts: webservers  
-- name: Webserver assignment
-- import_playbook: ../static-assignments/webservers.yaml
+#- hosts: webservers  
+#- name: Webserver assignment
+#- import_playbook: ../static-assignments/webservers.yaml
 
 #- hosts: db
 #- name: installing db

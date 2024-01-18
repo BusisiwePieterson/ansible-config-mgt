@@ -15,6 +15,21 @@ None.
 ## Role Variables
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
+```markdown
+mysql_databases: 
+  - name: tooling
+    collation: utf8_general_ci
+    encoding: utf8
+    replicate: 1
+
+# Users.
+mysql_users:
+   - name: webaccess
+     host: 172.31.15.63
+     password: secret
+     priv: '*.*:ALL,GRANT'
+```
+
 
 
     nginx_listen_ipv6: true

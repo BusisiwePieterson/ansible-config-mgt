@@ -15,11 +15,16 @@
 #- name: Webserver assignment
 #- import_playbook: ../static-assignments/webservers.yaml
 
-- hosts: db
-- name: installing db
-  import_playbook: ../static-assignments/db.yaml 
+#- hosts: db
+#- name: installing db
+#  import_playbook: ../static-assignments/db.yaml 
 
+- hosts: lb
+- name: Loadbalancers assignment
 
+  import_playbook: ../static-assignments/loadbalancer.yaml
+  when: load_balancer_is_required 
+  
 
 
   

@@ -1,10 +1,5 @@
-[uat-webservers]
-<<<<<<< HEAD
-172.31.13.242 ansible_ssh_user='ec2-user'
-172.31.13.169 ansible_ssh_user='ec2-user'
-=======
+#[uat-webservers]
 #172.31.13.242 ansible_ssh_user='ec2-user'
-172.31.13.169  ansible_ssh_user='ec2-user'
->>>>>>> main
+#172.31.13.169  ansible_ssh_user='ec2-user'
 
 

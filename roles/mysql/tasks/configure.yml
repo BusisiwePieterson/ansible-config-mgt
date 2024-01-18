@@ -1,6 +1,6 @@
 ---
 - name: Get MySQL version.
-  ansible.builtin.command: 'mysql --version'
+  command: 'mysql --version'
   register: mysql_cli_version
   changed_when: false
   check_mode: false
@@ -36,7 +36,7 @@
   notify: restart mysql
 
 - name: Create slow query log file (if configured).
-  ansible.builtin.command: "touch {{ mysql_slow_query_log_file }}"
+  command: "touch {{ mysql_slow_query_log_file }}"
   args:
     creates: "{{ mysql_slow_query_log_file }}"
   when: mysql_slow_query_log_enabled
@@ -60,7 +60,7 @@
   when: mysql_slow_query_log_enabled
 
 - name: Create error log file (if configured).
-  ansible.builtin.command: "touch {{ mysql_log_error }}"
+  command: "touch {{ mysql_log_error }}"
   args:
     creates: "{{ mysql_log_error }}"
   when:

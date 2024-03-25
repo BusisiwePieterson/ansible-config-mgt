@@ -33,8 +33,9 @@ pipeline {
     }
     stage('Clean up') {
       steps {
-        dir("${WORKSPACE}")
-          deleteDir()
+        script {
+          sh 'echo "Clean-up Stage"'
+        }
       }
     }
   }

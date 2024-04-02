@@ -1,5 +1,5 @@
 ---
-- hosts: dev-webservers
+- hosts: webservers
 - name: Provisioning the Dev_Env Webservers
   import_playbook: ../static-assignments/webservers.yaml
 

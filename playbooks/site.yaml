@@ -1,13 +1,8 @@
 ---
-- hosts: db
-  tasks:
-    - name: Include DB playbook
-      import_playbook: ../static-assignments/db.yaml
+- hosts: dev-webservers
+- name: Provisioning the Dev_Env Webservers
+  import_playbook: ../static-assignments/webservers.yaml
 
-- hosts: nginx
-  tasks:
-    - name: Include Nginx playbook
-      import_playbook: ../static-assignments/nginx.yaml
 
 
 

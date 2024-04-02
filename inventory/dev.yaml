@@ -10,8 +10,8 @@
 [db]
 172.31.44.165 ansible_ssh_user='ubuntu'
 
-[db:vars]
-ansible_ssh_user='ubuntu'
-ansible_python_interpreter=/usr/bin/python
+#[db:vars]
+#ansible_ssh_user='ubuntu'
+#ansible_python_interpreter=/usr/bin/python
 
 

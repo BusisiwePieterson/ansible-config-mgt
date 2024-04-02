@@ -11,13 +11,14 @@
     state: started
     enabled: yes
 
-- name: install PHP 
+- name: install PHP and required PHP modules
   ansible.builtin.yum:
-    name: 
-       - php
-       - php-mysqlnd
-       - php-gd
-       - php-curl
+    name:
+      - php
+      - php-mysqlnd
+      - php-gd
+      - php-curl
     state: present
+
 
  

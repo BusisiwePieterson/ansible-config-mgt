@@ -2,12 +2,13 @@
 - hosts: db
   tasks:
     - name: database assignment
-      include_playbook: ../static-assignments/db.yaml
+      import_playbook: ..\static-assignments\db.yaml
 
 - hosts: nginx
   tasks:
     - name: nginx assignment
-      include_playbook: ../static-assignments/nginx.yaml
+      import_playbook: ..\static-assignments\nginx.yaml
+
 
 
 

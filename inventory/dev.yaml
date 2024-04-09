@@ -5,10 +5,10 @@
 #172.31.23.18 ansible_ssh_user='ec2-user'
 
 [nginx]
-172.31.24.105 ansible_ssh_user='ubuntu'
+172.31.81.236 ansible_ssh_user='ubuntu'
 
 [db]
-172.31.44.165 ansible_ssh_user='ubuntu'
+172.31.94.94 ansible_ssh_user='ubuntu'
 
 [db:vars]
 ansible_python_interpreter=/usr/bin/python

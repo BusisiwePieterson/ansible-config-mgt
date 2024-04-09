@@ -2,13 +2,13 @@
 - name: installing database
   hosts: db
 - name: db assignment
-  import_playbook: C:\Users\user\desktop\ansible-config-mgt\static-assignments\db.yaml
+  import_playbook: ..\static-assignments\db.yaml
 
 
 - name: installing nginx
   hosts: nginx
 - name: nginx assignment
-  import_playbook: C:\Users\user\desktop\ansible-config-mgt\static-assignments\nginx.yaml
+  import_playbook: ..\static-assignments\nginx.yaml 
 
 
 
